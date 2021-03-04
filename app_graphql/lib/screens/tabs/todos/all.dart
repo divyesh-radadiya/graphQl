@@ -64,6 +64,7 @@ class _AllState extends State<All> {
               return AddTask(
                 onAdd: (value) {
                   runMutation({'title': value, 'isPublic': false});
+                  todoList.addTodo(value);
                 },
               );
             }),

@@ -1,4 +1,3 @@
-import 'package:app_graphql/services/shared_preferences_service.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
